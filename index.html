@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link rel="stylesheet" href="css/styles.css">
+    <title>Drums Machine</title>
+</head>
+
+<body>
+    <header id="header-title">
+        <h1>Drums Machine</h1>
+    </header>
+
+    <section id="keys">
+        <div data-key="65" class="key">
+            <kbd class="key-code active">A</kbd>
+            <div class="sound">Clap</div>
+        </div>
+        <div data-key="83" class="key">
+            <kbd>S</kbd>
+            <div class="sound">Hihat</div>
+        </div>
+        <div data-key="68" class="key">
+            <kbd>D</kbd>
+            <div class="sound">Kick</div>
+        </div>
+        <div data-key="70" class="key">
+            <kbd>F</kbd>
+            <div class="sound">Openhat</div>
+        </div>
+        <div data-key="71" class="key">
+            <kbd>G</kbd>
+            <div class="sound">Boom</div>
+        </div>
+        <div data-key="72" class="key">
+            <kbd>H</kbd>
+            <div class="sound">Ride</div>
+        </div>
+        <div data-key="74" class="key">
+            <kbd>J</kbd>
+            <div class="sound">Snare</div>
+        </div>
+        <div data-key="75" class="key">
+            <kbd>K</kbd>
+            <div class="sound">Tom</div>
+        </div>
+    </section>
+
+
+    <audio data-key="65" src="sounds/clap.wav"></audio>
+    <audio data-key="83" src="sounds/hihat.wav"></audio>
+    <audio data-key="68" src="sounds/kick.wav"></audio>
+    <audio data-key="70" src="sounds/openhat.wav"></audio>
+    <audio data-key="71" src="sounds/boom.wav"></audio>
+    <audio data-key="72" src="sounds/ride.wav"></audio>
+    <audio data-key="74" src="sounds/snare.wav"></audio>
+    <audio data-key="75" src="sounds/tom.wav"></audio>
+
+    <script src="js/main.js"></script>
+</body>
+
+</html>
